@@ -6,3 +6,9 @@ The reasons for why this was needed were never extrapolated upon, but I don't qu
 # Usage
 
 Run the binary located in dist. A cmd or PowerShell window will open with instructions from there.
+
+
+# Compiling Distributable
+```
+pyinstaller --onefile --paths .venv/Lib/site-packages src/autojoiner.py
+```
