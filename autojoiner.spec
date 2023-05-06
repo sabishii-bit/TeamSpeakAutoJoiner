@@ -6,7 +6,7 @@ block_cipher = None
 
 a = Analysis(
     ['src\\autojoiner.py'],
-    pathex=[],
+    pathex=['.venv/Lib/site-packages'],
     binaries=[],
     datas=[],
     hiddenimports=[],
