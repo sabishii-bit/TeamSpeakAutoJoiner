@@ -46,6 +46,8 @@ server_ip, server_port, server_username, server_password, target_channel_name, j
 # Schedule the script to run at the specified time
 schedule.every().day.at(join_time).do(join_channel, server_ip, server_port, server_username, server_password, target_channel_name)
 
+print("\nConfigurations have been set. Leave this terminal window open and you will automatically join your session.")
+
 # Keep the script running and checking for scheduled tasks
 while True:
     schedule.run_pending()
